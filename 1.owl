@@ -1,0 +1,387 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6">
+        <rdfs:comment>Онтология здорового образа жизни</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Обеспечивает -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Обеспечивает">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Двигательная_активность"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Высокий_уровень_иммунитета"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Повышает -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Повышает">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Восстановление_резервов_организма"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Необходимые_полезные_вещества"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Работоспособность"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Повышает2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Повышает2">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Температурный_комфорт"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Устойчивость_к_перепадам_температуры"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Позволяет -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Позволяет">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Высокий_уровень_иммунитета"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Необходимые_полезные_вещества"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Температурный_комфорт"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Четкий_режим_дня"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Чистоту_своего_тела"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Противостоять_инфекциям"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Обеспечивает(2) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Обеспечивает(2)">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Психическое_здоровье"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Адекватное_восприятие_ситуации"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Обеспечивает(3) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Обеспечивает(3)">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Рациональное_питание"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Необходимые_полезные_вещества"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Обеспечивает(4) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Обеспечивает(4)">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Закаливание"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Температурный_комфорт"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Обеспечивает(5) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Обеспечивает(5)">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Четкий_режим_дня"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Восстановление_резервов_организма"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Обеспечивает(6) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Обеспечивает(6)">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Отказ_от_вредных_привычек"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Нормальное_сознание_человека"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Обеспечивает(7) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Обеспечивает(7)">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Гигиена"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Чистоту_своего_тела"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Обеспечивает(8) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Обеспечивает(8)">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Правильное_поведение_в_социуме"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Благоприятное_воздействие_от_социума"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Позволяет(2) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Позволяет(2)">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Адекватное_восприятие_ситуации"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Сократить_психологические_нагрузки"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Позволяет(3) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Позволяет(3)">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Нормальное_сознание_человека"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Найти_логическое_решение_проблем"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Получать_удовольствие_от_жизни"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Позволяет(4) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Позволяет(4)">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Чистоту_своего_тела"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Избежать_множество_заболеваний"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Позволяет(5) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Позволяет(5)">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Благоприятное_воздействие_от_социума"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Обмениваться_информацией"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Получать_удовольствие_от_жизни"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Адекватное_восприятие_ситуации -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Адекватное_восприятие_ситуации">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Психическое_здоровье"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Благоприятное_воздействие_от_социума -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Благоприятное_воздействие_от_социума">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Правильное_поведение_в_социуме"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Восстановление_резервов_организма -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Восстановление_резервов_организма">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Четкий_режим_дня"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Высокий_уровень_иммунитета -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Высокий_уровень_иммунитета">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Двигательная_активность"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Гигиена -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Гигиена">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Здоровый_образ_жизни"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Двигательная_активность -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Двигательная_активность">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Здоровый_образ_жизни"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Закаливание -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Закаливание">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Здоровый_образ_жизни"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Здоровый_образ_жизни -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Здоровый_образ_жизни"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Избежать_множество_заболеваний -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Избежать_множество_заболеваний">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Отказ_от_вредных_привычек"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Чистоту_своего_тела"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Найти_логическое_решение_проблем -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Найти_логическое_решение_проблем">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Нормальное_сознание_человека"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Необходимые_полезные_вещества -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Необходимые_полезные_вещества">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Рациональное_питание"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Нормальное_сознание_человека -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Нормальное_сознание_человека">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Отказ_от_вредных_привычек"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Обмениваться_информацией -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Обмениваться_информацией">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Благоприятное_воздействие_от_социума"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Отказ_от_вредных_привычек -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Отказ_от_вредных_привычек">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Здоровый_образ_жизни"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Получать_удовольствие_от_жизни -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Получать_удовольствие_от_жизни">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Благоприятное_воздействие_от_социума"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Нормальное_сознание_человека"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Правильное_поведение_в_социуме -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Правильное_поведение_в_социуме">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Здоровый_образ_жизни"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Противостоять_инфекциям -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Противостоять_инфекциям">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Восстановление_резервов_организма"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Высокий_уровень_иммунитета"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Необходимые_полезные_вещества"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Температурный_комфорт"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Чистоту_своего_тела"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Психическое_здоровье -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Психическое_здоровье">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Здоровый_образ_жизни"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Работоспособность -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Работоспособность">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Восстановление_резервов_организма"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Необходимые_полезные_вещества"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Рациональное_питание -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Рациональное_питание">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Здоровый_образ_жизни"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Сократить_психологические_нагрузки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Сократить_психологические_нагрузки">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Адекватное_восприятие_ситуации"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Температурный_комфорт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Температурный_комфорт">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Закаливание"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Устойчивость_к_перепадам_температуры -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Устойчивость_к_перепадам_температуры">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Температурный_комфорт"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Четкий_режим_дня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Четкий_режим_дня">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Здоровый_образ_жизни"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Чистоту_своего_тела -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Чистоту_своего_тела">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ольга/ontologies/2017/3/untitled-ontology-6#Гигиена"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
