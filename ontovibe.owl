@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/админ/ontologies/2016/1/untitled-ontology-9#"
+     xml:base="http://www.semanticweb.org/админ/ontologies/2016/1/untitled-ontology-9"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://primat.org/demo/webowl/data/ontovibe.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://primat.org/demo/webowl/data/ontovibe.owl#about -->
+
+    <owl:Class rdf:about="http://primat.org/demo/webowl/data/ontovibe.owl#about">
+        <rdfs:subClassOf rdf:resource="http://primat.org/demo/webowl/data/ontovibe.owl#primat.org"/>
+    </owl:Class>
+    
+
+
+    <!-- http://primat.org/demo/webowl/data/ontovibe.owl#download -->
+
+    <owl:Class rdf:about="http://primat.org/demo/webowl/data/ontovibe.owl#download">
+        <rdfs:subClassOf rdf:resource="http://primat.org/demo/webowl/data/ontovibe.owl#primat.org"/>
+    </owl:Class>
+    
+
+
+    <!-- http://primat.org/demo/webowl/data/ontovibe.owl#files -->
+
+    <owl:Class rdf:about="http://primat.org/demo/webowl/data/ontovibe.owl#files">
+        <rdfs:subClassOf rdf:resource="http://primat.org/demo/webowl/data/ontovibe.owl#primat.org"/>
+    </owl:Class>
+    
+
+
+    <!-- http://primat.org/demo/webowl/data/ontovibe.owl#form-email -->
+
+    <owl:Class rdf:about="http://primat.org/demo/webowl/data/ontovibe.owl#form-email">
+        <rdfs:subClassOf rdf:resource="http://primat.org/demo/webowl/data/ontovibe.owl#primat.org"/>
+    </owl:Class>
+    
+
+
+    <!-- http://primat.org/demo/webowl/data/ontovibe.owl#it-news -->
+
+    <owl:Class rdf:about="http://primat.org/demo/webowl/data/ontovibe.owl#it-news">
+        <rdfs:subClassOf rdf:resource="http://primat.org/demo/webowl/data/ontovibe.owl#news"/>
+    </owl:Class>
+    
+
+
+    <!-- http://primat.org/demo/webowl/data/ontovibe.owl#math -->
+
+    <owl:Class rdf:about="http://primat.org/demo/webowl/data/ontovibe.owl#math">
+        <rdfs:subClassOf rdf:resource="http://primat.org/demo/webowl/data/ontovibe.owl#files"/>
+    </owl:Class>
+    
+
+
+    <!-- http://primat.org/demo/webowl/data/ontovibe.owl#math-news -->
+
+    <owl:Class rdf:about="http://primat.org/demo/webowl/data/ontovibe.owl#math-news">
+        <rdfs:subClassOf rdf:resource="http://primat.org/demo/webowl/data/ontovibe.owl#news"/>
+    </owl:Class>
+    
+
+
+    <!-- http://primat.org/demo/webowl/data/ontovibe.owl#news -->
+
+    <owl:Class rdf:about="http://primat.org/demo/webowl/data/ontovibe.owl#news">
+        <rdfs:subClassOf rdf:resource="http://primat.org/demo/webowl/data/ontovibe.owl#primat.org"/>
+    </owl:Class>
+    
+
+
+    <!-- http://primat.org/demo/webowl/data/ontovibe.owl#pascal -->
+
+    <owl:Class rdf:about="http://primat.org/demo/webowl/data/ontovibe.owl#pascal">
+        <rdfs:subClassOf rdf:resource="http://primat.org/demo/webowl/data/ontovibe.owl#files"/>
+    </owl:Class>
+    
+
+
+    <!-- http://primat.org/demo/webowl/data/ontovibe.owl#pascal-abc -->
+
+    <owl:Class rdf:about="http://primat.org/demo/webowl/data/ontovibe.owl#pascal-abc">
+        <rdfs:subClassOf rdf:resource="http://primat.org/demo/webowl/data/ontovibe.owl#pascal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://primat.org/demo/webowl/data/ontovibe.owl#primat.org -->
+
+    <owl:Class rdf:about="http://primat.org/demo/webowl/data/ontovibe.owl#primat.org"/>
+    
+
+
+    <!-- http://primat.org/demo/webowl/data/ontovibe.owl#soft -->
+
+    <owl:Class rdf:about="http://primat.org/demo/webowl/data/ontovibe.owl#soft">
+        <rdfs:subClassOf rdf:resource="http://primat.org/demo/webowl/data/ontovibe.owl#download"/>
+    </owl:Class>
+    
+
+
+    <!-- http://primat.org/demo/webowl/data/ontovibe.owl#text -->
+
+    <owl:Class rdf:about="http://primat.org/demo/webowl/data/ontovibe.owl#text">
+        <rdfs:subClassOf rdf:resource="http://primat.org/demo/webowl/data/ontovibe.owl#download"/>
+    </owl:Class>
+    
+
+
+    <!-- http://primat.org/demo/webowl/data/ontovibe.owl#turbo-pascal -->
+
+    <owl:Class rdf:about="http://primat.org/demo/webowl/data/ontovibe.owl#turbo-pascal">
+        <rdfs:subClassOf rdf:resource="http://primat.org/demo/webowl/data/ontovibe.owl#pascal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://primat.org/demo/webowl/data/ontovibe.owl#web-news -->
+
+    <owl:Class rdf:about="http://primat.org/demo/webowl/data/ontovibe.owl#web-news">
+        <rdfs:subClassOf rdf:resource="http://primat.org/demo/webowl/data/ontovibe.owl#news"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+
