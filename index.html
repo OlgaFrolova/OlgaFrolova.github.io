@@ -1,37 +1,91 @@
-<html> 
-<head> 
-<script type="text/javascript" src="https://www.google.com/jsapi"></script> 
-<script type="text/javascript"> 
-google.load("visualization", "1.1", {packages:["wordtree"]}); 
-google.setOnLoadCallback(drawChart); 
-function drawChart() { 
-var data = google.visualization.arrayToDataTable( 
-[ ['Фразы'], 
-['Здоровый образ включает: питание, включающего: вещества, повышающие: уровень здоровья'], 
-['Здоровый образ включает: питание, включающего: вещества, повышающие: работоспособность'], 
-['Здоровый образ включает: питание, включающего: энергетическую ценность'], 
-['Здоровый образ включает: гигиену, включающею: чистоту тела, повышающею: уровень здоровья'], 
-['Здоровый образ включает: гигиену, включающею: чистоту тела, повышающею: стойкость против множества заболеваний'], 
-['Здоровый образ включает: чёткий режим, включающий: восстановление организма, повышающий: уровень здоровья'], 
-['Здоровый образ включает: чёткий режим, включающий: восстановление организма, повышающий: работоспособность'],
-['Здоровый образ включает: чёткий режим, включающий: отдых, восстанавливающий: физические силы'],  
-['Здоровый образ включает: чёткий режим, включающий: отдых, восстанавливающий: психоэмоциональное состояние'],  
-]
-); 
-var options = { 
-maxFontSize: 14, 
-backgroundColor: '#F7F7F7', 
-wordtree: { 
-format: 'implicit', 
-word: 'Здоровый образ' 
-} 
-}; 
-var chart = new google.visualization.WordTree(document.getElementById('wordtree_basic')); 
-chart.draw(data, options); 
-} 
-</script> 
-</head> 
-<body> 
-<div id="wordtree_basic" style="margin-bottom:1000px;"></div> 
-</body> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 
+	Template 2048 Floral Design
+	by www.tooplate.com 
+-->
+<title>РћР»СЊРіР° РС‰РµРЅРєРѕ</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/tooplate_style.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+<div id="tooplate_wrapper">
+	<div id="tooplate_header">
+    	<div id="site_title"><h1><a href="#">Floral Design</a></h1></div>
+    </div> <!-- end of header -->
+    
+    <div id="tooplate_menu">
+        <ul>
+            <li><a href="index.html" class="current">Р“Р»Р°РІРЅР°СЏ</a></li>
+            <li><a href="about.html">РџСЂРѕ РјРµРЅСЏ</a></li>
+            <li><a href="blog.html">Р›Р°Р±РѕСЂР°С‚РѕСЂРЅС‹Рµ СЂР°Р±РѕС‚С‹</a></li>
+          
+<!--		  <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>!-->
+        </ul>    	
+    </div> <!-- end of tooplate_menu -->
+    
+    <div id="tooplate_middle">
+		РќР° СЌС‚РѕРј СЃР°Р№С‚Рµ СЂР°СЃРїРѕР»РѕР¶РµРЅС‹ Р»Р°Р±РѕСЂРѕС‚РѕСЂРЅС‹Рµ СЂР°Р±РѕС‚С‹ РїРѕ РґРёСЃС†РёРїР»РёРЅР°Рј РџРЎРЁР Р РРРЎ
+ 	</div> <!-- end of middle -->
+    
+     <div id="tooplate_main">
+			<div class="col_w300 float_l">
+                <h2>РЎРµРјР°РЅС‚РёС‡РµСЃРєР°СЏ СЃРµС‚СЊ</h2>
+              <div class="image_wrapper"><a href="#"><img src="images/tooplate_image_01.jpg" alt="Image 01" /></a></div>
+              	<p><em>РЎРµРјР°РЅС‚РёС‡РµСЃРєР°СЏ СЃРµС‚СЊ вЂ” СЌС‚Рѕ СЃРёСЃС‚РµРјР° Р·РЅР°РЅРёР№, РёРјРµСЋС‰Р°СЏ РѕРїСЂРµРґРµР»РµРЅРЅС‹Р№
+               СЃРјС‹СЃР» РІ РІРёРґРµ С†РµР»РѕСЃС‚РЅРѕРіРѕ РѕР±СЂР°Р·Р° СЃРµС‚Рё,
+               СѓР·Р»С‹ РєРѕС‚РѕСЂРѕР№ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‚ РїРѕРЅСЏС‚РёСЏРј Рё РѕР±СЉРµРєС‚Р°Рј,
+               Р° РґСѓРіРё вЂ” РѕС‚РЅРѕС€РµРЅРёСЏРј РјРµР¶РґСѓ РїРѕРЅСЏС‚РёСЏРјРё Рё РѕР±СЉРµРєС‚Р°РјРё. </em></p>
+                <p align="justify"><p>РЎР»РµРґРѕРІР°С‚РµР»СЊРЅРѕ, РІСЃРµРІРѕР·РјРѕР¶РЅС‹Рµ СЃРµС‚Рё РјРѕР¶РЅРѕ СЂР°СЃСЃРјР°С‚СЂРёРІР°С‚СЊ РєР°Рє СЃРµС‚Рё, РІС…РѕРґСЏС‰РёРµ РІ СЃРѕСЃС‚Р°РІ СЃРµРјР°РЅС‚РёС‡РµСЃРєРѕР№ СЃРµС‚Рё. Р’ С‚РѕРј С‡РёСЃР»Рµ Рє РЅРёРј РјРѕРіСѓС‚ Р±С‹С‚СЊ РѕС‚РЅРµСЃРµРЅС‹ Рё СЃРµС‚РµРІС‹Рµ СЃС‚СЂСѓРєС‚СѓСЂС‹ РјРѕРґРµР»РµР№ Р±Р°Р· РґР°РЅРЅС‹С….</p>
+                <p align="justify"><p>РЎР°РјР° РїРѕ СЃРµР±Рµ СЃРµРјР°РЅС‚РёС‡РµСЃРєР°СЏ СЃРµС‚СЊ СЏРІР»СЏРµС‚СЃСЏ РјРѕРґРµР»СЊСЋ РїР°РјСЏС‚Рё Рё РЅРµ СЂР°СЃРєСЂС‹РІР°РµС‚, РєР°РєРёРј РѕР±СЂР°Р·РѕРј РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ Р·РЅР°РЅРёР№. РџРѕСЌС‚РѕРјСѓ РІ РєРѕРЅС‚РµРєСЃС‚Рµ Р·РЅР°РєРѕРјСЃС‚РІР° СЃ РЎРћР— СЃРµРјР°РЅС‚РёС‡РµСЃРєРёРµ СЃРµС‚Рё РґРѕР»Р¶РЅС‹ СЂР°СЃСЃРјР°С‚СЂРёРІР°С‚СЊСЃСЏ РєР°Рє РјРµС‚РѕРґ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ Р·РЅР°РЅРёР№ СЃ РІРѕР·РјРѕР¶РЅРѕСЃС‚СЏРјРё СЃС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРёСЏ СЌС‚РёС… Р·РЅР°РЅРёР№, РїСЂРѕС†РµРґСѓСЂР°РјРё РёС… РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ Рё РјРµС…Р°РЅРёР·РјРѕРј РІС‹РІРѕРґР°.</p>
+              <!--  <a href="#" class="more">Р§РёС‚Р°С‚СЊ РґР°Р»СЊС€Рµ</a>!-->
+            </div>
+        
+			<div class="col_w600 float_r">
+            	<div class="content_box">
+                <h2>Floral Design Template</h2>
+                <p><em>Lorem ipsum dolor sit amet. Nullam faucibus ipsum ac sapien tincidunt auctor. Nunc risus tortor, posuere a cursus sit amet, vehicula ac est.</em></p>
+                <ul class="tooplate_list col_w280 float_l">
+                  	<li><a href="#">Sed nec eros egestas nisl</a></li>
+                    <li><a href="#">Morbi sed nulla ac est cursus</a></li>
+                    <li><a href="#">Curabitur ullamcorper nibh</a></li>
+                    <li><a href="#">Pellentesque adipiscing</a></li>    
+              	</ul>
+                <ul class="tooplate_list col_w280 float_r">
+                    <li><a href="#">Donec sit amet turpis</a></li>
+                    <li><a href="#">Morbi vel sem lacus</a></li>
+                    <li><a href="#">Nam at placerat sapien</a></li>    
+                    <li><a href="#">Proin id nulla in urna</a></li>                    
+              	</ul>
+                <div class="cleaner"></div>
+                <a href="#" class="more float_r">Read more</a>
+                </div>
+                <h2>New Projects</h2>
+                <div class="col_w280 float_l">
+                    <h5>Nullam ut neque neque</h5>
+                    <div class="image_wrapper"><a href="#"><img src="images/tooplate_image_02.jpg" alt="Image 02" /></a></div>
+                </div>
+                <div class="col_w280 float_r">
+                    <h5>Aliquam aliquet sem</h5>
+                    <div class="image_wrapper"><a href="#"><img src="images/tooplate_image_03.jpg" alt="Image 03" /></a></div>
+                </div>
+                <div class="cleaner h30"></div>
+                <a href="#" class="more float_r">View All</a>
+            </div>
+            <div class="cleaner"></div>
+    </div> <!-- end of tooplate_main -->
+</div> <!-- end of wrapper -->
+<div id="tooplate_footer_wrapper">
+    <div id="tooplate_footer">
+        Copyright В© 2048 <a href="#">Company Name</a> | Design: <a href="http://www.tooplate.com">tooplate</a>
+    </div> <!-- end of tooplate_footer -->
+</div>
+
+</body>
 </html>
